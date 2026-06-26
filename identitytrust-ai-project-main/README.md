@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ 🛡️ Sentinel Bank System (IdentityTrust AI)
 
-## Getting Started
+ 📌 Overview
+Sentinel Bank System is a privacy-first, AI-powered identity trust platform designed for modern digital banking systems. It evaluates user identity signals and behavior patterns to generate a dynamic **risk-based trust score**, helping prevent fraud and unauthorized access.
 
-First, run the development server:
+Built for **PSB Hackathon 2026**, this project focuses on strengthening digital banking security using intelligent decision-making instead of static authentication.
 
+
+
+ 🚀 Key Features
+- 🔐 Dynamic risk-based identity trust scoring
+- 🤖 AI-assisted fraud detection logic
+- 📊 Real-time risk evaluation dashboard
+- 🧠 Intelligent authentication decision system
+- ⚡ Fast and responsive UI built with Next.js
+- 🧩 Modular and scalable architecture
+- 🛡️ Privacy-focused design principles
+
+
+
+ 🧠 Tech Stack
+- Next.js (React Framework)
+- TypeScript / JavaScript
+- Tailwind CSS
+- Node.js
+- (Add database if used: MongoDB / Firebase / PostgreSQL)
+
+
+
+ 📂 Project Structure
+
+src/
+├── app/ # Application routes (pages)
+├── components/ # Reusable UI components
+├── lib/ # Utility functions
+├── services/ # Core business logic (risk engine, AI logic)
+
+
+
+
+ ⚙️ Installation & Setup
+
+ 1. Clone the repository
 ```bash
+git clone https://github.com/Krithik-kb/sentinel-bank-system.git
+
+2. Navigate into project folder
+cd sentinel-bank-system
+
+3. Install dependencies
+npm install
+
+4. Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open in browser
+http://localhost:3000
+🎯 Problem Statement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Traditional banking authentication systems rely on static passwords or OTPs, which are vulnerable to phishing, replay attacks, and identity theft.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💡 Our Solution
 
-## Learn More
+We introduce a dynamic identity trust system that:
 
-To learn more about Next.js, take a look at the following resources:
+Continuously evaluates user behavior
+Generates a real-time risk score
+Decides authentication level dynamically:
+✅ Allow access
+⚠️ Request extra verification
+❌ Block suspicious activity
+📸 Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔮 Future Improvements
+Machine learning-based fraud prediction model
+Biometric authentication integration
+Live transaction monitoring system
+API integration with banking infrastructure
+Advanced anomaly detection engine
+👨‍💻 Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Krithik
+PSB Hackathon 2026 Project
